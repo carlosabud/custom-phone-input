@@ -1,0 +1,8 @@
+<input
+  (blur)="onTouch()"
+  (input)="writeValue($event.target.value)"
+  (input)="onChange($event.target.value)"
+  [disabled]="disabled"
+  [value]="value"
+  [maxLength]="maxLength"
+/>
